@@ -5,9 +5,9 @@ import joblib
 model_nb = joblib.load('spam-ham')
 
 st.title('SPAM HAM CLASSIGIER')
-IP = ST.TEXT_INPUT('ENTER YOUR TEXT')
+ip = st.text_input('ENTER YOUR TEXT')
 
-OP = MODEL_NB.PREDICT([ip])
+op = model_nb.predict([ip])
 if st.button('PREDICT'):
   st.title(op[0])
   
