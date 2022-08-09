@@ -10,9 +10,7 @@ IP = ST.TEXT_INPUT('ENTER YOUR TEXT')
 OP = MODEL_NB.PREDICT([ip])
 if st.button('PREDICT'):
   st.title(op[0])
-
   
   
+    
   
-     
-     
